@@ -21,9 +21,11 @@ public class Fishing extends TaskScript {
     public Category scriptDefinitions() {
         Category cat = new Category();
 
-        cat.setAuthor("Wuggy");
         cat.setTitle("Wuggy Fisher");
-        cat.setDescription("Fishes and banks");
+        cat.setDescription("Fishes shark and banks");
+        cat.setVersion(1.0);
+        cat.setAuthor("Wuggy");
+        cat.setDiscord("Wuggy#0394");
 
         return cat;
     }
@@ -40,8 +42,8 @@ public class Fishing extends TaskScript {
 
     @Override
     public void paint(Graphics g) {
-        int x = 20, y = 35;
+        int x = 10, y = 310;
 
-        g.drawString("Wuggy Fisher", x, y+=15);
+        g.drawString("Wuggy Fisher", x, y);
     }
 }
